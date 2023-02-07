@@ -1,0 +1,93 @@
+.body{
+    background-color: rgb(224, 229, 233);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.banner{
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.logoLittleLemon{
+    width: 350px;
+}
+.menu{
+    background-color: rgb(34, 34, 34);
+    height: 80px;
+    width: 80%;
+    margin-bottom: 5px;
+}
+.menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    flex-wrap: wrap;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.iceriy{
+    display: flex;
+    width: 80%;
+    height: auto
+}
+.iceriy .meqale{
+    width: 80%;
+    margin-right: 5px;
+    background-color: rgb(241, 237, 233);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.iceriy .meqale p{
+    text-align: justify;
+    text-indent: 10px;
+}
+.iceriy .yan-yana{
+    display: flex;
+}
+.yan-yana p{
+    margin-right: 15px;
+
+}
+
+.iceriy .reklam {
+    background-color: rgb(241, 237, 233);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reklam img{
+    height: 150px;
+}
+.footer{
+    height: 71px;
+    width: 80%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
